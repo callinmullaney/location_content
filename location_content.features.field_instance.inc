@@ -10,7 +10,7 @@
 function location_content_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'asset-location-field_address'
+  // Exported field_instance: 'asset-location-field_address'.
   $field_instances['asset-location-field_address'] = array(
     'bundle' => 'location',
     'default_value' => NULL,
@@ -61,7 +61,7 @@ function location_content_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'asset-location-field_geolocation'
+  // Exported field_instance: 'asset-location-field_geolocation'.
   $field_instances['asset-location-field_geolocation'] = array(
     'bundle' => 'location',
     'deleted' => 0,

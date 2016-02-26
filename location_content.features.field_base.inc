@@ -10,7 +10,7 @@
 function location_content_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_address'
+  // Exported field_base: 'field_address'.
   $field_bases['field_address'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -25,7 +25,7 @@ function location_content_field_default_field_bases() {
     'type' => 'addressfield',
   );
 
-  // Exported field_base: 'field_geolocation'
+  // Exported field_base: 'field_geolocation'.
   $field_bases['field_geolocation'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -75,7 +75,7 @@ function location_content_field_default_field_bases() {
     'type' => 'geofield',
   );
 
-  // Exported field_base: 'field_location'
+  // Exported field_base: 'field_location'.
   $field_bases['field_location'] = array(
     'active' => 1,
     'cardinality' => 1,
